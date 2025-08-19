@@ -1,0 +1,38 @@
+.sidebar {
+  width: 220px;
+  background-color: #640aff;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.new-chat {
+  background-color: #fb590e;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.new-chat:hover {
+  background-color: #e1510c;
+}
+
+.chat-history {
+  font-size: 14px;
+}
+
+.history-label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}

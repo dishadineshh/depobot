@@ -1,0 +1,25 @@
+.suggestion-chips {
+  position: sticky;
+  bottom: 10px;
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  background: white;
+  padding: 10px 0;
+}
+
+.suggestion-chips button {
+  background-color: #f1ecff;
+  border: 1px solid #640aff;
+  color: #640aff;
+  border-radius: 20px;
+  padding: 8px 14px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.suggestion-chips button:hover {
+  background-color: #640aff;
+  color: white;
+}
